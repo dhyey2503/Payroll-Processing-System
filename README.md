@@ -16,20 +16,20 @@ This project demonstrates core **mainframe enterprise programming concepts**: ba
 - End-to-end flow: **JCL dataset allocation → COBOL compile → Execute → Report Output**.
 
 ## 📂 Project Structure
+
 Payroll-Processing-System/
 ├── COBOL/
-│   └── PAYROLL.cbl      # COBOL payroll program
+│ └── PAYROLL.cbl # COBOL payroll program
 ├── COPY/
-│   └── EMPREC.cpy       # Employee record copybook
+│ └── EMPREC.cpy # Employee record copybook
 ├── JCL/
-│   ├── ALLOCALL.jcl     # Allocate datasets (SOURCE, JCL, LOAD, INPUT, OUTPUT)
-│   ├── LOADIN.jcl       # Load employee input dataset
-│   ├── CLGPRUN.jcl      # Compile + Link COBOL program
-│   └── RUNPAY.jcl       # Execute payroll program
+│ ├── ALLOCALL.jcl # Allocate datasets (SOURCE, JCL, LOAD, INPUT, OUTPUT)
+│ ├── LOADIN.jcl # Load employee input dataset
+│ ├── CLGPRUN.jcl # Compile + Link COBOL program
+│ └── RUNPAY.jcl # Execute payroll program
 ├── SAMPLE/
-│   └── PAYRPT.txt       # Example payroll report
-└── README.md            # Documentation
-
+│ └── PAYRPT.txt # Example payroll report
+└── README.md # Documentation
 
 ## 🚀 How to Run on IBM Z Xplore
 1. Submit `ALLOCALL.jcl` → allocates all PDS datasets.  
